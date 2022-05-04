@@ -9,12 +9,12 @@ public class CartPageSteps {
 
     CartPagePom cartPagePom = new CartPagePom();
 
-    @And("Submit purchase, set up product price")
+    @And("Submit purchase and set up product price")
     public void submitPurchaseSetProductNameAndPrice() {
         cartPagePom.submitPurchase();
     }
 
-    @And("Enter email for purchase")
+    @And("Enter customer email")
     public void enterEmailForPurchase() {
         cartPagePom.enterEmailForPurchase();
     }

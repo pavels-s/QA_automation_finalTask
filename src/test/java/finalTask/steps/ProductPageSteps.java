@@ -17,7 +17,7 @@ public class ProductPageSteps {
         productPagePom.setUpProductPrice();
     }
 
-    @And("Add it to the cart")
+    @And("Add product to the cart")
     public void addItToTheCart() {
         productPagePom.addToCard();
     }
